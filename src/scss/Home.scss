@@ -1,4 +1,52 @@
 
 .imageMy{
     border-radius: 1000px !important;
+    width: 65% !important;
+}
+
+.card{
+    background-color: rgba(80, 77, 77, 0.185);
+    
+}
+
+.btns{
+    padding: 10px 100px !important;
+    border-radius: 30px;
+    background-color: rgba(80, 77, 77, 0.185);
+    &:hover{
+        background-color: white;
+        color: black;
+        
+    }
+}
+.list{
+    list-style: none;
+    position: fixed !important;
+    li{
+        a{
+            i:hover{
+                color: white !important;
+                font-size: 30px !important;
+            }
+        }
+    }
+}
+
+.port{
+    padding: 10px 95px !important;
+}
+
+.certifcate{
+    padding: 10px 80px !important;
+}
+
+::-webkit-scrollbar{
+    width: 0.723rem;
+    height: 1rem;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
 }
