@@ -49,16 +49,16 @@ export default function Home() {
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-lg-4 top-0 col-md-6 col-sm-12">
-                        <div className="card  text-center p-lg-5 p-md-3 p-sm-2">
+                    <div className="col-lg-4  position-static top-0 col-md-6 col-sm-12">
+                        <div className="card   text-center p-lg-5 p-md-3 p-sm-2">
                             <div className='text-center'>
                             <img src={myImage} className=" card-img-top imageMy border border-5 border-light" alt="myImage"/>
 
                             </div>
                                 <div className="card-body">
-                                    <h3 className="card-title text-white fw-bolder">Muhammad Ahmed</h3>
+                                    <h4 className="card-title text-white fw-bolder">Muhammad Ahmed</h4>
                                     <h6 className="card-title text-white fw-bolder mb-4">Web Application Developer</h6>                                     
-                                    <a href="#home" className="mb-2 btn border border-secondary text-secondary btns">Home</a>
+                                    <a href="#home" className="mb-2  btn border border-secondary text-secondary btns">Home</a>
                                     <a href="#about" className="mb-2 btn border border-secondary text-secondary btns">About</a>
                                     <a href="#certifcate" className="mb-2 certifcate btn border border-secondary text-secondary btns">Certification</a>
                                     <a href="#portfolio" className="mb-2 btn port border border-secondary text-secondary btns">Portfolio</a>
@@ -81,15 +81,15 @@ export default function Home() {
                     <div className="col-2  d-flex justify-content-center align-content-center">
                         <div className='d-flex justify-content-center align-items-center flex-column'>
                             <ul className='list'>
-                                <li className='mb-2'><a href="mailto:muhammadahmedite@gmail.com" target='_blank'><i class="bi bi-envelope text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="mailto:muhammadahmedite@gmail.com" target='_blank'><i className="bi bi-envelope text-secondary fs-4"></i></a></li>
 
-                                <li className='mb-2'><a href="" target='_blank'><i class="bi bi-linkedin text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i class="bi bi-facebook text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i class="bi bi-instagram text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i class="bi bi-github text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i class="bi bi-whatsapp text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i class="bi bi-twitter text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i class="bi bi-youtube text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-linkedin text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-facebook text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-instagram text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-github text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-whatsapp text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-twitter text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-youtube text-secondary fs-4"></i></a></li>
                             </ul>
                         </div>
                     </div>

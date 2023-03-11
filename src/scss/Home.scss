@@ -42,7 +42,7 @@
 
 ::-webkit-scrollbar{
     width: 0.723rem;
-    height: 1rem;
+    
 }
 ::-webkit-scrollbar-track{
     background-color: black;
@@ -50,3 +50,10 @@
 ::-webkit-scrollbar-thumb{
     background-color: white;
 }
+
+
+@media screen and (max-width: 993px) {
+    .list{
+        display: none;
+    }
+  }
