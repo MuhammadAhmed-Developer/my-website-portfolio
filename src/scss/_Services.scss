@@ -1,0 +1,21 @@
+
+.text-card{
+    display: none;
+    &:hover{
+        display: block !important;
+    }
+}
+
+.certifcate{
+    transition: 1s;
+    width: 75%;
+}
+.certifcate:hover{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+    .certifcate{
+        width: 700px !important;
+    }
+  }

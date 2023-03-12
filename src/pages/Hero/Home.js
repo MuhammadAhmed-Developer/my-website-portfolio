@@ -60,7 +60,8 @@ export default function Home() {
                                     <h6 className="card-title text-white fw-bolder mb-4">Web Application Developer</h6>                                     
                                     <a href="#home" className="mb-2  btn border border-secondary text-secondary btns">Home</a>
                                     <a href="#about" className="mb-2 btn border border-secondary text-secondary btns">About</a>
-                                    <a href="#certifcate" className="mb-2 certifcate btn border border-secondary text-secondary btns">Certification</a>
+                                    <a href="#services" className="mb-2 btn  border border-secondary text-secondary btns">Services</a>
+                                    {/* <a href="#certifcate" className="mb-2 certifcate btn border border-secondary text-secondary btns">Certification</a> */}
                                     <a href="#portfolio" className="mb-2 btn port border border-secondary text-secondary btns">Portfolio</a>
                                     <a href="#contact" className="mb-2 btn port border border-secondary text-secondary btns">Contact</a>
                                 </div>
@@ -74,7 +75,7 @@ export default function Home() {
 
                         <p className='header-subtitle text-center fw-bolder fs-3'> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "React Web Application Developer" ]'><span className="wrap">{text}</span><span className='text-dark'>|</span></span></p>
 
-                        <a href="#contact" className="mb-2 btn  border border-secondary text-secondary btns">See CV</a>
+                        <a href="#contact" className=" btn btn-secondary px-5 rounded-5"><i class="bi bi-download "></i> <span className='fs-5 fw-bold'>CV</span></a>
                       </div>
 
                     </div>
