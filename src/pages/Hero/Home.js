@@ -51,19 +51,19 @@ export default function Home() {
                 <div className="row">
                     <div className="col-lg-4  position-static top-0 col-md-6 col-sm-12">
                         <div className="card   text-center p-lg-5 p-md-3 p-sm-2">
-                            <div className='text-center'>
-                            <img src={myImage} className=" card-img-top imageMy border border-5 border-light" alt="myImage"/>
+                            <div className='text-center '>
+                            <img src={myImage} className=" card-img-top mt-3  imageMy border border-5 border-light" alt="myImage"/>
 
                             </div>
                                 <div className="card-body">
                                     <h4 className="card-title text-white fw-bolder">Muhammad Ahmed</h4>
                                     <h6 className="card-title text-white fw-bolder mb-4">Web Application Developer</h6>                                     
-                                    <a href="#home" className="mb-2  btn border border-secondary text-secondary btns">Home</a>
-                                    <a href="#about" className="mb-2 btn border border-secondary text-secondary btns">About</a>
-                                    <a href="#services" className="mb-2 btn  border border-secondary text-secondary btns">Services</a>
-                                    {/* <a href="#certifcate" className="mb-2 certifcate btn border border-secondary text-secondary btns">Certification</a> */}
-                                    <a href="#portfolio" className="mb-2 btn port border border-secondary text-secondary btns">Portfolio</a>
-                                    <a href="#contact" className="mb-2 btn port border border-secondary text-secondary btns">Contact</a>
+                                    <a href="#home" className="m-2  btn border border-secondary text-secondary btns">Home</a>
+                                    <a href="#about" className="m-2 btn border border-secondary text-secondary btns">About</a>
+                                    <a href="#services" className="m-2 btn  border border-secondary text-secondary btns">Services</a>
+                                    <a href="#certifcate" className="m-2  btn border border-secondary text-secondary btns">Certification</a>
+                                    <a href="#portfolio" className="m-2 btn port border border-secondary text-secondary btns">Portfolio</a>
+                                    <a href="#contact" className="m-2 btn port border border-secondary text-secondary btns">Contact</a>
                                 </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ export default function Home() {
 
                         <p className='header-subtitle text-center fw-bolder fs-3'> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "React Web Application Developer" ]'><span className="wrap">{text}</span><span className='text-dark'>|</span></span></p>
 
-                        <a href="#contact" className=" btn btn-secondary px-5 rounded-5"><i class="bi bi-download "></i> <span className='fs-5 fw-bold'>CV</span></a>
+                        <a href="https://drive.google.com/file/d/1EcKAiVbZqsZUUfPWmAZCzpiB5ZKJZdAo/view" target='_blank' className=" btn btn-secondary px-5 rounded-5"><i class="bi bi-download "></i> <span className='fs-5 fw-bold'>CV</span></a>
                       </div>
 
                     </div>
@@ -84,13 +84,13 @@ export default function Home() {
                             <ul className='list'>
                                 <li className='mb-2'><a href="mailto:muhammadahmedite@gmail.com" target='_blank'><i className="bi bi-envelope text-secondary fs-4"></i></a></li>
 
-                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-linkedin text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-facebook text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-instagram text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-github text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-whatsapp text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-twitter text-secondary fs-4"></i></a></li>
-                                <li className='mb-2'><a href="" target='_blank'><i className="bi bi-youtube text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="https://www.linkedin.com/in/muhammad-ahmed-731234266/" target='_blank'><i className="bi bi-linkedin text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="https://www.facebook.com/MuhammadAhmedjee" target='_blank'><i className="bi bi-facebook text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="https://www.instagram.com/muhammad_ahmed0011/" target='_blank'><i className="bi bi-instagram text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="https://github.com/MuhammadAhmed-Developer" target='_blank'><i className="bi bi-github text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="https://api.whatsapp.com/send/?phone=923190230242&text&type=phone_number&app_absent=0" target='_blank'><i className="bi bi-whatsapp text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="https://twitter.com/Muhammad__1122" target='_blank'><i className="bi bi-twitter text-secondary fs-4"></i></a></li>
+                                <li className='mb-2'><a href="https://www.youtube.com/channel/UCaLHw5befr8haWH_XQQVOvA" target='_blank'><i className="bi bi-youtube text-secondary fs-4"></i></a></li>
                             </ul>
                         </div>
                     </div>

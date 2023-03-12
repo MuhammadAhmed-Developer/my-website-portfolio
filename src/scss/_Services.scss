@@ -8,14 +8,36 @@
 
 .certifcate{
     transition: 1s;
-    width: 75%;
+    width: 65%;
 }
 .certifcate:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.listsm{
+    list-style: none;
+    display: none;
+    li{
+        a{
+            i:hover{
+                color: white !important;
+                font-size: 30px !important;
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 600px) {
     .certifcate{
         width: 700px !important;
+    }
+    .listsm{
+        display: block;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .listsm{
+        display: none;
     }
   }

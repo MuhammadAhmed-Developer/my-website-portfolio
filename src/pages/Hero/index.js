@@ -6,10 +6,12 @@ import Certifcate from './Certifcate';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
 import Footer from './Footer';
+import Header from './Header';
 
 export default function index() {
   return (
     <>
+    <Header/>
     <Home/>
     <About/>
     <Services/>
