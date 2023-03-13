@@ -13,7 +13,7 @@ export default function About() {
                 <p>Who Am I ?</p>
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 text-center">
-                <img src={aboutimg} alt="about" className='img-fluid rounded-5 w-75' />
+                <img src={aboutimg} alt="about" className='img-fluid rounded-5 w-75 myimage' />
               </div>
               <div className="col-lg-6 col-md-12 col-sm-12 m-sm-3 mx-lg-0 mx-sm-5 m-lg-0 text-start text-white mt-4">
                 <strong>Phone: </strong><a href="tel:03190230242" className=' text-decoration-none text-secondary'>+92 3190230242</a><br/>

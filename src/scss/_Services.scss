@@ -5,11 +5,25 @@
         display: block !important;
     }
 }
+.text-card {
+    position: absolute;
+    bottom: -100%;
+    opacity: 0;
+    visibility: hidden;
+    @include transition(all,.3s);
+}
+
+.text-card:hover{
+    bottom: 7px;
+    opacity: 1;
+    visibility: visible;
+}
 
 .certifcate{
     transition: 1s;
     width: 65%;
 }
+
 .certifcate:hover{
     transform: scale(1.1);
 }

@@ -19,7 +19,7 @@ export default function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        let { user, email, message } = state;
+        let { user, email, message } = state
 
         user = user.trim()
        email = email.trim()

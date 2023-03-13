@@ -18,7 +18,10 @@ export default function Portfolio() {
                     <div className="row mt-4">
                         <div className="col-lg-4 col-sm-12  col-md-6 text-center my-4">
                             <div className="card border p-lg-0 p-sm-2" id='cardpo'>
+                                <div className="inner">
+
                                <img src={hotel} alt="" className='image-fluid w-100'/>
+                                </div>
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">RESTAURANT</h5>
                                <p className="text-center card-text text-start text-white">A website build on HTML5, CSS3, Bootstrap5</p>
@@ -28,7 +31,10 @@ export default function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-sm-12  col-md-6 text-center my-4">
                             <div className="card border p-lg-0 p-sm-2" id='cardpo'>
+                                <div className="inner">
+
                                <img src={agency} alt="" className='image-fluid w-100'/>
+                                </div>
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">State Agency</h5>
                                <p className="text-center card-text text-start text-white">A website build on HTML5, CSS3, Bootstrap5</p>
@@ -38,7 +44,10 @@ export default function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-sm-12  col-md-6 text-center my-4">
                             <div className="card border p-lg-0 p-sm-2" id='cardpo'>
+                                <div className="inner">
+
                                <img src={boot} alt="" className='image-fluid w-100'/>
+                                </div>
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">BootCamp</h5>
                                <p className="text-center card-text text-start text-white">A website build on HTML5, CSS3, Bootstrap5</p>
@@ -48,7 +57,10 @@ export default function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-sm-12  col-md-6 text-center my-4">
                             <div className="card border p-lg-0 p-sm-2" id='cardpo'>
+                                <div className="inner">
+
                                <img src={cal} alt="" className='image-fluid w-100'/>
+                                </div>
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">Calculater</h5>
                                <p className="text-center card-text text-start text-white">A website build on HTML5, CSS3, Bootstrap5, JavaScript</p>
@@ -58,7 +70,10 @@ export default function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-sm-12  col-md-6 text-center my-4">
                             <div className="card border p-lg-0 p-sm-2" id='cardpo'>
+                                <div className="inner">
+
                                <img src={todo} alt="" className='image-fluid w-100'/>
+                                </div>
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">Todo App</h5>
                                <p className="text-center card-text text-start text-white">A website build on React Js and<br/> Firebase</p>
@@ -68,7 +83,10 @@ export default function Portfolio() {
                         </div>
                         <div className="col-lg-4 col-sm-12  col-md-6 text-center my-4">
                             <div className="card border p-lg-0 p-sm-2" id='cardpo'>
+                                <div className="inner">
+
                                <img src={event} alt="" className='image-fluid w-100'/>
+                                </div>
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">Events Planner</h5>
                                <p className="text-center card-text text-start text-white">A website build on React Js and<br/> Firebase</p>
