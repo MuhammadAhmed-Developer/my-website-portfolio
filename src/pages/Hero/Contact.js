@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-
+import { doc, serverTimestamp, setDoc } from "firebase/firestore/lite";
+import { async } from '@firebase/util';
+import { firestore } from '../../Config/Firebase';
 
 const initialState = {
     user: '',
@@ -11,12 +13,13 @@ const initialState = {
 export default function Contact() {
 
     const [state, setState] = useState('')
+    const [isProcessing, setIsProcessing] = useState(false)
 
-    const handleChange = (e) => {
+    const handleChange =  (e) => {
         setState(s => ({ ...s, [e.target.name]:e.target.value }))
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
 
         let { user, email, message } = state
@@ -35,10 +38,34 @@ export default function Contact() {
             return window.notify('PLease  Enter Message Correctly', 'error')
         }
 
+        let contactData = {user, email, message}
+
+        contactData.dateCreated = serverTimestamp()
+        contactData.id = Math.random().toString(36).slice(2);
+        
+        createContact(contactData)
+    
         
         console.log(state)
       
-        window.notify('Thanks for Contact', 'success')
+       
+    }
+
+    const createContact = async (contactData) =>{
+ 
+        setIsProcessing(true)
+
+        try{
+            await setDoc(doc(firestore, "ContactData", contactData.id), contactData);
+            window.notify('Thanks for Contacting', 'success')
+               
+        }catch(err){
+            console.error(err)
+            window.notify('Something went Wrong', 'error')
+
+        }
+
+        setIsProcessing(false)
     }
 
     return (
@@ -67,7 +94,7 @@ export default function Contact() {
                             </div>
                             <div className="row">
                                 <div className="col-12">
-                                    <button className='btn btn-light w-25'>Send <i class="mt-3 bi bi-send-fill fs-5"></i></button>
+                                    <button className='btn btn-light w-25' disabled={isProcessing}>Send <i class="mt-3 bi bi-send-fill fs-5"></i></button>
                                 </div>
                             </div>
                         </form>
