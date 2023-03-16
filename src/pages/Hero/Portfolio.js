@@ -30,7 +30,7 @@ export default function Portfolio() {
                             </div>
                         </div>
                         <div className="col-lg-4 col-sm-12  col-md-6 text-center my-4">
-                            <div className="card border p-lg-0 p-sm-2" id='cardpo'>
+                            <div className="card border p-lg-0 p-sm-2" id='cardpo  card-transtion'>
                                 <div className="inner">
 
                                <img src={agency} alt="" className='image-fluid w-100'/>

@@ -75,7 +75,7 @@ export default function Home() {
 
                         <p className='header-subtitle text-center fw-bold fs-3 text-secondary'> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "React Web Application Developer" ]'><span className="wrap">{text}</span><span className='text-dark'>|</span></span></p>
 
-                        <a href="https://drive.google.com/file/d/1EcKAiVbZqsZUUfPWmAZCzpiB5ZKJZdAo/view" target='_blank' className=" btn btn-secondary px-5 rounded-5"><i className="bi bi-download "></i> <span className='fs-5 fw-bold'>CV</span></a>
+                        <a href="https://drive.google.com/file/d/1PObGtF9HtD_EPG_5RJFhhVaH6iSc46zC/view?usp=share_link" target='_blank' className=" btn btn-secondary px-5 rounded-5"><i className="bi bi-download "></i> <span className='fs-5 fw-bold'>CV</span></a>
                       </div>
 
                     </div>

@@ -34,6 +34,8 @@ export default function Contact() {
         if(message.length < 10) {
             return window.notify('PLease  Enter Message Correctly', 'error')
         }
+
+        
         console.log(state)
       
         window.notify('Thanks for Contact', 'success')
