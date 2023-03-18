@@ -85,7 +85,7 @@ export default function Portfolio() {
                             <div className="card border p-lg-0 p-sm-2" id='cardpo'>
                                 <div className="inner">
 
-                               <img src={event} alt="" className='image-fluid w-100'/>
+                               <img src={event} alt="image" className='image-fluid w-100'/>
                                 </div>
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">Events Planner</h5>
