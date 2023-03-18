@@ -90,7 +90,7 @@ export default function Portfolio() {
                                <div className='text-center p-lg-4 p-md-3 p-sm-3 border'>
                                <h5 className="card-title text-center text-white fw-bold my-2">Events Planner</h5>
                                <p className="text-center card-text text-start text-white">A website build on React Js and<br/> Firebase</p>
-                               <a href="http://myhotel.surge.sh/#" target='_blank' className=" my-3 btn btn-light w-50"><i className='bi bi-laptop'></i> Live Demo</a>
+                               <a href="https://events-net.web.app/" target='_blank' className=" my-3 btn btn-light w-50"><i className='bi bi-laptop'></i> Live Demo</a>
                                </div>
                             </div>
                         </div>

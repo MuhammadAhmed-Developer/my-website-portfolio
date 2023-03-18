@@ -51,7 +51,7 @@ export default function Contact() {
        
     }
 
-    const createContact = async (contactData) =>{
+    const createContact = async (contactData) => {
  
         setIsProcessing(true)
 
