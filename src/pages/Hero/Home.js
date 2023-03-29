@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import myImage from '../../assects/images/my image.jpg'
 
 export default function Home() {
-     const [loopNum, setLoopNum] = useState(0);
+    const  [display, setDisplay] = useState('none')
+    const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(250);
@@ -43,45 +44,70 @@ export default function Home() {
             setIndex(prevIndex => prevIndex + 1);
         }
     }
+
+    // const changeMode = () => {
+    //     setDisplay = 'block'
+    //     document.getElementById('light-mode').style.display = 'none'
+    //     document.getElementsById('dark-mode').style.display= 'block'
+    //     // document.getElementById('root').style.backgroundColor = 'white'
+    //     // document.getElementById('root').style.color = 'gray'
+    // }
+
     return (
         <>
             {/* Top section */}
 
             <div className="container-fluid">
+
                 <div className="row">
-                    <div className="col-lg-4  position-static top-0 col-md-6 col-sm-12">
-                        <div className="card   text-center p-lg-5 p-md-3 p-sm-2">
-                            <div className='text-center '>
-                            <img src={myImage} className=" card-img-top mt-3  imageMy border border-5 border-light" alt="myImage"/>
+                    <div className="col-lg-4  col-md-6 col-sm-12">
+                        <div className="card text-center p-lg-5 p-md-3 p-sm-2">
+                            <div class="row justify-content-center align-items-center g-2">
+                                {/* <div class="col text-end">
+                                    <button id='light-mode'  className=' border-0  bg-transparent' onClick={changeMode}>
+                                        <i className="bi modes bi-brightness-high text-secondary fs-3"></i>
+                                    </button>
+                                
+                                 <button  id='dark-mode' style={{display: display}} className=' border-0 bg-transparent' >
+                                    <i className="modes bi bi-moon-stars-fill text-secondary fs-3"></i>
+                                </button>
+                                </div> */}
+                                   
 
                             </div>
-                                <div className="card-body">
-                                    <h4 className="card-title text-white fw-bolder">Muhammad Ahmed</h4>
-                                    <h6 className="card-title text-white fw-bolder mb-4">Web Application Developer</h6>                                     
-                                    <a href="#home" className="m-2  btn border border-secondary text-secondary btns">Home</a>
-                                    <a href="#about" className="m-2 btn border border-secondary text-secondary btns">About</a>
-                                    <a href="#services" className="m-2 btn  border border-secondary text-secondary btns">Services</a>
-                                    <a href="#certifcate" className="m-2  btn border border-secondary text-secondary btns">Certification</a>
-                                    <a href="#portfolio" className="m-2 btn port border border-secondary text-secondary btns">Portfolio</a>
-                                    <a href="#contact" className="m-2 btn port border border-secondary text-secondary btns">Contact</a>
-                                </div>
+                            <div className='text-center '>
+                                <img src={myImage} className=" card-img-top mt-3  imageMy border border-5 border-light" alt="myImage" />
+
+                            </div>
+                            <div className="card-body">
+                                <h4 className="card-title text-white fw-bolder">Muhammad Ahmed</h4>
+                                <h6 className="card-title text-white fw-bolder mb-4">Web Application Developer</h6>
+                                <a href="#home" className="m-2  btn border border-secondary text-secondary btns">Home</a>
+                                <a href="#about" className="m-2 btn border border-secondary text-secondary btns">About</a>
+                                <a href="#services" className="m-2 btn  border border-secondary text-secondary btns">Services</a>
+                                <a href="#certifcate" className="m-2  btn border border-secondary text-secondary btns">Certification</a>
+                                <a href="#portfolio" className="m-2 btn port border border-secondary text-secondary btns">Portfolio</a>
+                                <a href="#contact" className="m-2 btn port border border-secondary text-secondary btns">Contact</a>
+                            </div>
                         </div>
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-sm-12 mt-sm-4 mt-lg-0 mt-md-0  d-flex justify-content-center align-content-center">
-                      <div className='mx-5 mt-sm-4 mt-lg-0 mt-md-0  d-flex justify-content-center align-items-center flex-column'>
-                        <h3 className='mt-sm-5 mt-lg-0'>Hi There!</h3>
-                        <h1 className='fw-bolder text-white text-center'>I'M Muhammad Ahmed</h1>
+                        <div className='mx-5 mt-sm-4 mt-lg-0 mt-md-0  d-flex justify-content-center align-items-center flex-column'>
+                            <h3 className='mt-sm-5 mt-lg-0'>Hi There!</h3>
+                            <h1 className='fw-bolder text-white text-center'>I'M Muhammad Ahmed</h1>
 
-                        <p className='header-subtitle text-center fw-bold fs-3 text-secondary'> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "React Web Application Developer" ]'><span className="wrap">{text}</span><span className='text-dark'>|</span></span></p>
+                            <p className='header-subtitle text-center fw-bold fs-3 text-secondary'> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "React Web Application Developer" ]'><span className="wrap">{text}</span><span className='text-dark'>|</span></span></p>
 
-                        <a href="https://drive.google.com/file/d/1PObGtF9HtD_EPG_5RJFhhVaH6iSc46zC/view?usp=share_link" target='_blank' className=" btn btn-secondary px-5 rounded-5"><i className="bi bi-download "></i> <span className='fs-5 fw-bold'>CV</span></a>
-                      </div>
+                            <a href="https://drive.google.com/file/d/1PObGtF9HtD_EPG_5RJFhhVaH6iSc46zC/view?usp=share_link" target='_blank' className=" btn btn-secondary px-5 rounded-5"><i className="bi bi-download "></i> <span className='fs-5 fw-bold'>CV</span></a>
+                        </div>
 
                     </div>
                     <div className="col-2  d-flex justify-content-center align-content-center">
                         <div className='d-flex justify-content-center align-items-center flex-column'>
                             <ul className='list mt-5'>
+
+                                
                                 <li className='mb-4'><a href="mailto:muhammadahmedite@gmail.com" target='_blank'><i className="bi bi-envelope text-secondary fs-4"></i></a></li>
 
                                 <li className='mb-4'><a href="https://www.linkedin.com/in/muhammad-ahmed-731234266/" target='_blank'><i className="bi bi-linkedin text-secondary fs-4"></i></a></li>

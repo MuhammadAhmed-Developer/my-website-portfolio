@@ -5,7 +5,9 @@
 }
 
 .card{
-    background-color: rgba(80, 77, 77, 0.185);
+    background-color: black;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
     
 }
 
@@ -58,6 +60,9 @@
     background-color: white;
 }
 
+.modes:hover{
+  color: white !important;
+}
 
 @media screen and (max-width: 993px) {
     .list{

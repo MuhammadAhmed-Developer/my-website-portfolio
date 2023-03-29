@@ -33,7 +33,7 @@ export default function About() {
                   <li className='text-secondary'>HTML5</li>
                   <li className='text-secondary'>CSS</li>
                   <li className='text-secondary'>SCSS</li>
-                  <li className='text-secondary'>JavaScript (EC6+)</li>
+                  <li className='text-secondary'>JavaScript (ES6+)</li>
                   <li className='text-secondary'>React js</li>
 
                 </ul>
