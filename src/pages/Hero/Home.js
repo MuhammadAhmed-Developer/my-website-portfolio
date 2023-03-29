@@ -81,16 +81,16 @@ export default function Home() {
                     </div>
                     <div className="col-2  d-flex justify-content-center align-content-center">
                         <div className='d-flex justify-content-center align-items-center flex-column'>
-                            <ul className='list'>
-                                <li className='mb-3'><a href="mailto:muhammadahmedite@gmail.com" target='_blank'><i className="bi bi-envelope text-secondary fs-4"></i></a></li>
+                            <ul className='list mt-5'>
+                                <li className='mb-4'><a href="mailto:muhammadahmedite@gmail.com" target='_blank'><i className="bi bi-envelope text-secondary fs-4"></i></a></li>
 
-                                <li className='mb-3'><a href="https://www.linkedin.com/in/muhammad-ahmed-731234266/" target='_blank'><i className="bi bi-linkedin text-secondary fs-4"></i></a></li>
-                                <li className='mb-3'><a href="https://www.facebook.com/MuhammadAhmedjee" target='_blank'><i className="bi bi-facebook text-secondary fs-4"></i></a></li>
-                                <li className='mb-3'><a href="https://www.instagram.com/muhammad_ahmed0011/" target='_blank'><i className="bi bi-instagram text-secondary fs-4"></i></a></li>
-                                <li className='mb-3'><a href="https://github.com/MuhammadAhmed-Developer" target='_blank'><i className="bi bi-github text-secondary fs-4"></i></a></li>
-                                <li className='mb-3'><a href="https://api.whatsapp.com/send/?phone=923190230242&text&type=phone_number&app_absent=0" target='_blank'><i className="bi bi-whatsapp text-secondary fs-4"></i></a></li>
-                                <li className='mb-3'><a href="https://twitter.com/Muhammad__1122" target='_blank'><i className="bi bi-twitter text-secondary fs-4"></i></a></li>
-                                <li className='mb-3'><a href="https://www.youtube.com/channel/UCaLHw5befr8haWH_XQQVOvA" target='_blank'><i className="bi bi-youtube text-secondary fs-4"></i></a></li>
+                                <li className='mb-4'><a href="https://www.linkedin.com/in/muhammad-ahmed-731234266/" target='_blank'><i className="bi bi-linkedin text-secondary fs-4"></i></a></li>
+                                <li className='mb-4'><a href="https://www.facebook.com/MuhammadAhmedjee" target='_blank'><i className="bi bi-facebook text-secondary fs-4"></i></a></li>
+                                <li className='mb-4'><a href="https://www.instagram.com/muhammad_ahmed0011/" target='_blank'><i className="bi bi-instagram text-secondary fs-4"></i></a></li>
+                                <li className='mb-4'><a href="https://github.com/MuhammadAhmed-Developer" target='_blank'><i className="bi bi-github text-secondary fs-4"></i></a></li>
+                                <li className='mb-4'><a href="https://api.whatsapp.com/send/?phone=923190230242&text&type=phone_number&app_absent=0" target='_blank'><i className="bi bi-whatsapp text-secondary fs-4"></i></a></li>
+                                <li className='mb-4'><a href="https://twitter.com/Muhammad__1122" target='_blank'><i className="bi bi-twitter text-secondary fs-4"></i></a></li>
+                                <li className='mb-4'><a href="https://www.youtube.com/channel/UCaLHw5befr8haWH_XQQVOvA" target='_blank'><i className="bi bi-youtube text-secondary fs-4"></i></a></li>
                             </ul>
                         </div>
                     </div>

@@ -30,28 +30,40 @@
 
 .listsm{
     list-style: none;
-    display: none;
+    display: none !important;
     li{
         a{
             i:hover{
                 color: white !important;
-                font-size: 30px !important;
+                // background-color: white;
+                // border: 1px solid white;
+                // padding: 10px;
             }
         }
     }
 }
 
+// .contactList{
+//     display: none ;
+// }
+
 @media screen and (max-width: 600px) {
     .certifcate{
         width: 700px !important;
     }
-    .listsm{
-        display: block;
-    }
+    
+    
   }
 
-  @media screen and (min-width: 600px) {
+//   @media screen and (min-width: 600px) {
+//     .listsm{
+//         display: none;
+//     }
+    
+//   }
+
+  @media screen and (max-width: 993px) {
     .listsm{
-        display: none;
+        display: flex !important;
     }
   }

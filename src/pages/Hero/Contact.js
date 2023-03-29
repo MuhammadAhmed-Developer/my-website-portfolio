@@ -99,7 +99,7 @@ export default function Contact() {
                             </div>
                         </form>
                         <div className="row mt-4 ">
-                            <div className="col ">
+                            <div className="col contactList ">
                                 <ul className='d-flex gap-lg-5 gap-sm-3 justify-content-center listsm'>
                                     <li className='m-2'><a href="mailto:muhammadahmedite@gmail.com" target='_blank'><i className="bi bi-envelope text-secondary fs-4"></i></a></li>
 
